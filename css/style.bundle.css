@@ -925,6 +925,9 @@ font-size: 18px;;
 .mainblock__title {
 	font-family: 'DrukWideCyr';
 }
+.wrapper_mfo {
+  background-image: url(../img/bgmain_mfo.png);
+}
 
 @media (max-width: 1023px) {
   .eventheader__items {
@@ -940,6 +943,12 @@ font-size: 18px;;
 }
 .wrapper {
   background-image: url(../img/bgmain_xs.png);
+  background-size: initial;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.wrapper_mfo {
+  background-image: url(../img/bgmain_mfo_xs.png);
   background-size: initial;
   background-position: top center;
   background-repeat: no-repeat;
